@@ -1,0 +1,13 @@
+{
+	"replace": false,
+	"values": [
+		"mna:bone_scythe",
+		"mna:astro_blade",
+		"mna:demon_lord_sword",
+		"minecraft:wooden_sword",
+		"minecraft:stone_sword",
+		"minecraft:iron_sword",
+		"minecraft:golden_sword",
+		"minecraft:netherite_sword"
+	]
+}

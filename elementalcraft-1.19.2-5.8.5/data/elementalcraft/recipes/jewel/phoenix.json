@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "U": {
+      "item": "elementalcraft:unset_jewel"
+    },
+    "b": {
+      "tag": "forge:rods/blaze"
+    },
+    "f": {
+      "tag": "forge:feathers"
+    },
+    "g": {
+      "tag": "elementalcraft:gems/pristine_fire"
+    },
+    "p": {
+      "item": "elementalcraft:purecrystal"
+    }
+  },
+  "pattern": [
+    "fgf",
+    "bUb",
+    "fpf"
+  ],
+  "result": {
+    "item": "elementalcraft:jewel",
+    "nbt": {
+      "elementalcraft": {
+        "jewel": "elementalcraft:phoenix"
+      }
+    }
+  }
+}

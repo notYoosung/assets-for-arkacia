@@ -1,0 +1,82 @@
+{
+  "mappings": {
+    "sirttas/elementalcraft/mixin/MixinRepairContainer": {
+      "createResult()V": "Lnet/minecraft/world/inventory/AnvilMenu;m_6640_()V"
+    },
+    "sirttas/elementalcraft/mixin/MixinLivingEntity": {
+      "checkTotemDeathProtection(Lnet/minecraft/world/damagesource/DamageSource;)Z": "Lnet/minecraft/world/entity/LivingEntity;m_21262_(Lnet/minecraft/world/damagesource/DamageSource;)Z",
+      "canStandOnFluid(Lnet/minecraft/world/level/material/FluidState;)Z": "Lnet/minecraft/world/entity/LivingEntity;m_203441_(Lnet/minecraft/world/level/material/FluidState;)Z"
+    },
+    "sirttas/elementalcraft/mixin/MixinPiglinAi": {
+      "isWearingGold(Lnet/minecraft/world/entity/LivingEntity;)Z": "Lnet/minecraft/world/entity/monster/piglin/PiglinAi;m_34808_(Lnet/minecraft/world/entity/LivingEntity;)Z"
+    },
+    "sirttas/elementalcraft/mixin/MixinEntity": {
+      "canFreeze()Z": "Lnet/minecraft/world/entity/Entity;m_142079_()Z"
+    },
+    "sirttas/elementalcraft/mixin/MixinRecipeManager": {
+      "apply(Ljava/util/Map;Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/util/profiling/ProfilerFiller;)V": "Lnet/minecraft/world/item/crafting/RecipeManager;m_5787_(Ljava/util/Map;Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/util/profiling/ProfilerFiller;)V",
+      "replaceRecipes(Ljava/lang/Iterable;)V": "Lnet/minecraft/world/item/crafting/RecipeManager;m_44024_(Ljava/lang/Iterable;)V"
+    },
+    "sirttas/elementalcraft/mixin/MixinMinecraftServer": {
+      "createLevels(Lnet/minecraft/server/level/progress/ChunkProgressListener;)V": "Lnet/minecraft/server/MinecraftServer;m_129815_(Lnet/minecraft/server/level/progress/ChunkProgressListener;)V",
+      "Lnet/minecraft/server/MinecraftServer;setInitialSpawn(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/storage/ServerLevelData;ZZ)V": "Lnet/minecraft/server/MinecraftServer;m_177896_(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/storage/ServerLevelData;ZZ)V"
+    },
+    "sirttas/elementalcraft/mixin/MixinPlayer": {
+      "net.minecraft.world.item.ItemStack.isSameIgnoreDurability(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)Z": "Lnet/minecraft/world/item/ItemStack;m_41758_(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)Z",
+      "tick()V": "Lnet/minecraft/world/entity/player/Player;m_8119_()V"
+    },
+    "sirttas/elementalcraft/mixin/MixinItemRenderer": {
+      "renderGuiItemDecorations(Lnet/minecraft/client/gui/Font;Lnet/minecraft/world/item/ItemStack;IILjava/lang/String;)V": "Lnet/minecraft/client/renderer/entity/ItemRenderer;m_115174_(Lnet/minecraft/client/gui/Font;Lnet/minecraft/world/item/ItemStack;IILjava/lang/String;)V"
+    },
+    "sirttas/elementalcraft/mixin/MixinPowderSnowBlock": {
+      "canEntityWalkOnPowderSnow(Lnet/minecraft/world/entity/Entity;)Z": "Lnet/minecraft/world/level/block/PowderSnowBlock;m_154255_(Lnet/minecraft/world/entity/Entity;)Z"
+    },
+    "sirttas/elementalcraft/mixin/MixinZombie": {
+      "wantsToPickUp(Lnet/minecraft/world/item/ItemStack;)Z": "Lnet/minecraft/world/entity/monster/Zombie;m_7243_(Lnet/minecraft/world/item/ItemStack;)Z"
+    },
+    "sirttas/elementalcraft/mixin/MixinProjectile": {
+      "tick()V": "Lnet/minecraft/world/entity/projectile/Projectile;m_8119_()V"
+    }
+  },
+  "data": {
+    "searge": {
+      "sirttas/elementalcraft/mixin/MixinRepairContainer": {
+        "createResult()V": "Lnet/minecraft/world/inventory/AnvilMenu;m_6640_()V"
+      },
+      "sirttas/elementalcraft/mixin/MixinLivingEntity": {
+        "checkTotemDeathProtection(Lnet/minecraft/world/damagesource/DamageSource;)Z": "Lnet/minecraft/world/entity/LivingEntity;m_21262_(Lnet/minecraft/world/damagesource/DamageSource;)Z",
+        "canStandOnFluid(Lnet/minecraft/world/level/material/FluidState;)Z": "Lnet/minecraft/world/entity/LivingEntity;m_203441_(Lnet/minecraft/world/level/material/FluidState;)Z"
+      },
+      "sirttas/elementalcraft/mixin/MixinPiglinAi": {
+        "isWearingGold(Lnet/minecraft/world/entity/LivingEntity;)Z": "Lnet/minecraft/world/entity/monster/piglin/PiglinAi;m_34808_(Lnet/minecraft/world/entity/LivingEntity;)Z"
+      },
+      "sirttas/elementalcraft/mixin/MixinEntity": {
+        "canFreeze()Z": "Lnet/minecraft/world/entity/Entity;m_142079_()Z"
+      },
+      "sirttas/elementalcraft/mixin/MixinRecipeManager": {
+        "apply(Ljava/util/Map;Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/util/profiling/ProfilerFiller;)V": "Lnet/minecraft/world/item/crafting/RecipeManager;m_5787_(Ljava/util/Map;Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/util/profiling/ProfilerFiller;)V",
+        "replaceRecipes(Ljava/lang/Iterable;)V": "Lnet/minecraft/world/item/crafting/RecipeManager;m_44024_(Ljava/lang/Iterable;)V"
+      },
+      "sirttas/elementalcraft/mixin/MixinMinecraftServer": {
+        "createLevels(Lnet/minecraft/server/level/progress/ChunkProgressListener;)V": "Lnet/minecraft/server/MinecraftServer;m_129815_(Lnet/minecraft/server/level/progress/ChunkProgressListener;)V",
+        "Lnet/minecraft/server/MinecraftServer;setInitialSpawn(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/storage/ServerLevelData;ZZ)V": "Lnet/minecraft/server/MinecraftServer;m_177896_(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/storage/ServerLevelData;ZZ)V"
+      },
+      "sirttas/elementalcraft/mixin/MixinPlayer": {
+        "net.minecraft.world.item.ItemStack.isSameIgnoreDurability(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)Z": "Lnet/minecraft/world/item/ItemStack;m_41758_(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)Z",
+        "tick()V": "Lnet/minecraft/world/entity/player/Player;m_8119_()V"
+      },
+      "sirttas/elementalcraft/mixin/MixinItemRenderer": {
+        "renderGuiItemDecorations(Lnet/minecraft/client/gui/Font;Lnet/minecraft/world/item/ItemStack;IILjava/lang/String;)V": "Lnet/minecraft/client/renderer/entity/ItemRenderer;m_115174_(Lnet/minecraft/client/gui/Font;Lnet/minecraft/world/item/ItemStack;IILjava/lang/String;)V"
+      },
+      "sirttas/elementalcraft/mixin/MixinPowderSnowBlock": {
+        "canEntityWalkOnPowderSnow(Lnet/minecraft/world/entity/Entity;)Z": "Lnet/minecraft/world/level/block/PowderSnowBlock;m_154255_(Lnet/minecraft/world/entity/Entity;)Z"
+      },
+      "sirttas/elementalcraft/mixin/MixinZombie": {
+        "wantsToPickUp(Lnet/minecraft/world/item/ItemStack;)Z": "Lnet/minecraft/world/entity/monster/Zombie;m_7243_(Lnet/minecraft/world/item/ItemStack;)Z"
+      },
+      "sirttas/elementalcraft/mixin/MixinProjectile": {
+        "tick()V": "Lnet/minecraft/world/entity/projectile/Projectile;m_8119_()V"
+      }
+    }
+  }
+}

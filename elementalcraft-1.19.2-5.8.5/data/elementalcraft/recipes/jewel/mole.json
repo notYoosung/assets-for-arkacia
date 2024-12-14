@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "U": {
+      "item": "elementalcraft:unset_jewel"
+    },
+    "a": {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    "e": {
+      "tag": "elementalcraft:gems/pristine_earth"
+    },
+    "p": {
+      "item": "elementalcraft:purecrystal"
+    },
+    "s": {
+      "item": "minecraft:diamond_shovel"
+    }
+  },
+  "pattern": [
+    " e ",
+    "sUa",
+    " p "
+  ],
+  "result": {
+    "item": "elementalcraft:jewel",
+    "nbt": {
+      "elementalcraft": {
+        "jewel": "elementalcraft:mole"
+      }
+    }
+  }
+}

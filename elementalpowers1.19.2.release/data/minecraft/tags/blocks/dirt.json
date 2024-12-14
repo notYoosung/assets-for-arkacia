@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:coarse_dirt",
+    "minecraft:mycelium",
+    "minecraft:rooted_dirt",
+    "elementalpowers:sakura_grass",
+    "elementalpowers:sakuradirt",
+    "minecraft:grass_block",
+    "minecraft:dirt",
+    "minecraft:podzol",
+    "minecraft:mud",
+    "minecraft:dirt_path"
+  ]
+}

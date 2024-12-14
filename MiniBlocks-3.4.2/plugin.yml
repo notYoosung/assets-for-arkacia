@@ -1,0 +1,31 @@
+name: MiniBlocks
+version: 3.4.2
+main: com.frgprsn.miniBlocks.MiniBlocks
+api-version: 1.16
+authors: [Frogperson]
+commands:
+  mbgive:
+    permission: miniblocks.give
+    usage: /mbgive <MiniBlock> [player]
+    description: Spawns in a MiniBlock
+  mbshrink:
+    permission: miniblocks.shrink
+    usage: /mbshrink
+    description: Shrinks a normal block into a miniblock
+  mbgrow:
+    permission: miniblocks.grow
+    usage: /mbgrow
+    description: Grows a miniblock into a normal block
+permissions:
+  miniblocks.craft:
+    default: true
+    description: Allows players to craft miniblocks
+  miniblocks.give:
+    default: op
+    description: Allows player to use /mbgive command
+  miniblocks.shrink:
+    default: op
+    description: Allows player to use /mbshrink command
+  miniblocks.grow:
+    default: op
+    description: Allows player to use /mbgrow command

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/swift_alloy"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "elementalcraft:swift_alloy_ingot"
+  }
+}

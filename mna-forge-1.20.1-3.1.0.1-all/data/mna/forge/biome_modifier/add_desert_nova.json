@@ -1,0 +1,6 @@
+{
+	"type": "forge:add_features",
+	"biomes": "#mna:spawns_desert_nova",
+	"features": "mna:desert_nova",
+	"step": "vegetal_decoration"
+}

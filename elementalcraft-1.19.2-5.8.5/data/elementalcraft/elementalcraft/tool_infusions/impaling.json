@@ -1,0 +1,9 @@
+{
+  "effects": [
+    {
+      "type": "elementalcraft:enchantment",
+      "enchantment": "minecraft:impaling"
+    }
+  ],
+  "element_type": "fire"
+}

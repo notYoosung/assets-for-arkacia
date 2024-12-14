@@ -1,0 +1,28 @@
+{
+  "type": "elementalcraft:binding",
+  "element_amount": 20000,
+  "element_type": "fire",
+  "ingredients": [
+    {
+      "item": "elementalcraft:firepylon"
+    },
+    {
+      "item": "elementalcraft:firecrystal"
+    },
+    {
+      "tag": "elementalcraft:gems/pristine_fire"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:lava_bucket"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    }
+  ],
+  "output": {
+    "item": "elementalcraft:lavashrine"
+  }
+}

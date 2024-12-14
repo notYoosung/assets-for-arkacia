@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "c": {
+      "item": "elementalcraft:contained_crystal"
+    },
+    "i": {
+      "tag": "forge:ingots/drenched_iron"
+    }
+  },
+  "pattern": [
+    "ici"
+  ],
+  "result": {
+    "count": 4,
+    "item": "elementalcraft:elementpipe"
+  }
+}

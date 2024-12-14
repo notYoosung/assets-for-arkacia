@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "item": "elementalcraft:shrine_upgrade_core"
+    },
+    "c": {
+      "item": "elementalcraft:firecrystal"
+    },
+    "g": {
+      "tag": "forge:dusts/glowstone"
+    },
+    "r": {
+      "tag": "forge:rods/blaze"
+    },
+    "w": {
+      "item": "elementalcraft:whiterock"
+    }
+  },
+  "pattern": [
+    "grg",
+    "wCw",
+    " c "
+  ],
+  "result": {
+    "item": "elementalcraft:shrine_upgrade_strength"
+  }
+}

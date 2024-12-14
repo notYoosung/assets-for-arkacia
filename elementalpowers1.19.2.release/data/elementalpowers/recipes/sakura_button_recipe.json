@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "elementalpowers:sakura_planks"
+    }
+  ],
+  "result": {
+    "item": "elementalpowers:sakura_button",
+    "count": 1
+  }
+}

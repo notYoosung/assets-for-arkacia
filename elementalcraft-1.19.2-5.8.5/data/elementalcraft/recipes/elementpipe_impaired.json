@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "c": {
+      "item": "elementalcraft:contained_crystal"
+    },
+    "i": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "pattern": [
+    "ici"
+  ],
+  "result": {
+    "count": 4,
+    "item": "elementalcraft:elementpipe_impaired"
+  }
+}

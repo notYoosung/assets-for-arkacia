@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "U": {
+      "item": "elementalcraft:unset_jewel"
+    },
+    "a": {
+      "tag": "elementalcraft:gems/fine_air"
+    },
+    "c": {
+      "item": "elementalcraft:aircrystal"
+    },
+    "e": {
+      "tag": "elementalcraft:gems/fine_earth"
+    }
+  },
+  "pattern": [
+    " a ",
+    "cUc",
+    " e "
+  ],
+  "result": {
+    "item": "elementalcraft:jewel",
+    "nbt": {
+      "elementalcraft": {
+        "jewel": "elementalcraft:leopard"
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+	"type": "forge:add_features",
+	"biomes": "#mna:spawns_aum",
+	"features": "mna:aum",
+	"step": "vegetal_decoration"
+}

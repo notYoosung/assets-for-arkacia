@@ -1,0 +1,22 @@
+{
+  "type": "elementalcraft:binding",
+  "element_amount": 10000,
+  "element_type": "air",
+  "ingredients": [
+    {
+      "item": "elementalcraft:container"
+    },
+    {
+      "item": "elementalcraft:springaline_glass"
+    },
+    {
+      "item": "elementalcraft:purecrystal"
+    },
+    {
+      "tag": "elementalcraft:gems/pristine_air"
+    }
+  ],
+  "output": {
+    "item": "elementalcraft:reservoir_air"
+  }
+}

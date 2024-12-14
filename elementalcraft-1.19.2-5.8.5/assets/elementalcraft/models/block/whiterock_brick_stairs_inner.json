@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "elementalcraft:block/whiterock_brick",
+    "side": "elementalcraft:block/whiterock_brick",
+    "top": "elementalcraft:block/whiterock_brick"
+  }
+}

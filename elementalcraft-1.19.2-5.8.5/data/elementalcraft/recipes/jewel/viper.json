@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "U": {
+      "item": "elementalcraft:unset_jewel"
+    },
+    "e": {
+      "tag": "elementalcraft:gems/fine_earth"
+    },
+    "s": {
+      "item": "minecraft:spider_eye"
+    },
+    "w": {
+      "tag": "elementalcraft:gems/fine_water"
+    }
+  },
+  "pattern": [
+    " w ",
+    "sUs",
+    " e "
+  ],
+  "result": {
+    "item": "elementalcraft:jewel",
+    "nbt": {
+      "elementalcraft": {
+        "jewel": "elementalcraft:viper"
+      }
+    }
+  }
+}

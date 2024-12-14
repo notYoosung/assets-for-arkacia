@@ -1,0 +1,110 @@
+# Recipe materials configurable in config.yml
+# P is Oak Plank
+# S is Oak Slab
+
+# 0 is empty
+
+A:
+  - '0P0'
+  - 'PPP'
+  - 'P0P'
+B:
+  - 'PP0'
+  - 'PPP'
+  - 'PPP'
+C:
+  - 'PPP'
+  - 'P00'
+  - 'PPP'
+D:
+  - 'PP0'
+  - 'P0P'
+  - 'PP0'
+E:
+  - 'PPP'
+  - 'PP0'
+  - 'PPP'
+F:
+  - 'PPP'
+  - 'PP0'
+  - 'P00'
+G:
+  - 'PP0'
+  - 'P0P'
+  - 'PPP'
+H:
+  - 'P0P'
+  - 'PPP'
+  - 'P0P'
+I:
+  - 'PPP'
+  - '0P0'
+  - 'PPP'
+J:
+  - '00P'
+  - 'P0P'
+  - 'PPP'
+K:
+  - 'P0P'
+  - 'PP0'
+  - 'P0P'
+L:
+  - 'P00'
+  - 'P00'
+  - 'PPP'
+M:
+  - 'PPP'
+  - 'PPP'
+  - 'P0P'
+N:
+  - 'PPP'
+  - 'P0P'
+  - 'P0P'
+O:
+  - '0P0'
+  - 'P0P'
+  - '0P0'
+P:
+  - 'PPP'
+  - 'PPP'
+  - 'P00'
+Q:
+  - '0P0'
+  - 'P0P'
+  - '0PP'
+R:
+  - 'PP0'
+  - 'PP0'
+  - 'P0P'
+S:
+  - 'P00'
+  - 'PPP'
+  - '00P'
+T:
+  - 'PPP'
+  - '0P0'
+  - '0P0'
+U:
+  - 'P0P'
+  - 'P0P'
+  - 'PPP'
+V:
+  - 'P0P'
+  - 'P0P'
+  - '0P0'
+W:
+  - 'P0P'
+  - 'PPP'
+  - 'PPP'
+X:
+  - 'P0P'
+  - '0P0'
+  - 'P0P'
+Y:
+  - 'P0P'
+  - '0P0'
+  - '0P0'
+Z:
+  - 'PP0'
+  - '0P0'
+  - '0PP'

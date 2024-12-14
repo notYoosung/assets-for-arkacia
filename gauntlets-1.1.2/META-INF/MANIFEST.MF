@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Fabric-Jar-Type: classes
+Fabric-Loom-Client-Only-Entries: assets/gauntlets/textures/crosshair_att
+ ack_indicator_background.png;client-gauntlets-refmap.json;gauntlets.cli
+ ent.mixins.json;joshie/gauntlets/GauntletsClient.class;joshie/gauntlets
+ /mixin/client/ExampleClientMixin.class;joshie/gauntlets/mixin/client/He
+ ldItemRendererMixin.class;joshie/gauntlets/mixin/client/InGameHudMixin.
+ class;joshie/gauntlets/mixin/client/ItemRendererAccessor.class;joshie/g
+ auntlets/mixin/client/ItemRendererMixin.class;joshie/gauntlets/mixin/cl
+ ient/MinecraftClientMixin$1.class;joshie/gauntlets/mixin/client/Minecra
+ ftClientMixin.class;joshie/gauntlets/mixin/client/ModelLoaderMixin.clas
+ s
+Fabric-Loom-Mixin-Remap-Type: mixin
+Fabric-Loom-Split-Environment: true
+Fabric-Gradle-Version: 8.7
+Fabric-Loom-Version: 1.6.12
+Fabric-Mixin-Compile-Extensions-Version: 0.6.0
+Fabric-Minecraft-Version: 1.21
+Fabric-Tiny-Remapper-Version: 0.10.3
+Fabric-Loader-Version: 0.15.11
+Fabric-Mixin-Version: 0.13.3+mixin.0.8.5
+Fabric-Mixin-Group: net.fabricmc
+Fabric-Mapping-Namespace: intermediary
+

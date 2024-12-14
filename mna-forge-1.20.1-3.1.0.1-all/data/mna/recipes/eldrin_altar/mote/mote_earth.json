@@ -1,0 +1,26 @@
+{
+	"type": "mna:eldrin-altar",
+	"output": "mna:mote_earth",
+	"tier": 4,
+	"items": [
+		"forge:sand",
+		"stone",
+		"diorite",
+		"granite",
+		"andesite",
+		"stone",
+		"diorite",
+		"granite",
+		"andesite"
+	],
+	"power_requirements": [
+		{
+			"affinity": "EARTH",
+			"amount": 250
+		}
+	],
+	"colors": [
+		7095059,
+		11902595
+	]
+}

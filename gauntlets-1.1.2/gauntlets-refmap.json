@@ -1,0 +1,30 @@
+{
+  "mappings": {
+    "joshie/gauntlets/mixin/ExampleMixin": {
+      "loadWorld": "Lnet/minecraft/server/MinecraftServer;method_3735()V"
+    },
+    "joshie/gauntlets/mixin/PlayerEntityMixin": {
+      "Lnet/minecraft/entity/player/PlayerEntity;lastAttackedTicks:I": "Lnet/minecraft/class_1657;field_6273:I",
+      "Lnet/minecraft/entity/player/PlayerEntity;tick()V": "Lnet/minecraft/class_1657;method_5773()V"
+    },
+    "joshie/gauntlets/mixin/ServerPlayerEntityMixin": {
+      "Lnet/minecraft/entity/player/PlayerEntity;swingHand(Lnet/minecraft/util/Hand;)V": "Lnet/minecraft/class_1657;method_6104(Lnet/minecraft/class_1268;)V",
+      "swingHand": "Lnet/minecraft/class_3222;method_6104(Lnet/minecraft/class_1268;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "joshie/gauntlets/mixin/ExampleMixin": {
+        "loadWorld": "Lnet/minecraft/server/MinecraftServer;method_3735()V"
+      },
+      "joshie/gauntlets/mixin/PlayerEntityMixin": {
+        "Lnet/minecraft/entity/player/PlayerEntity;lastAttackedTicks:I": "Lnet/minecraft/class_1657;field_6273:I",
+        "Lnet/minecraft/entity/player/PlayerEntity;tick()V": "Lnet/minecraft/class_1657;method_5773()V"
+      },
+      "joshie/gauntlets/mixin/ServerPlayerEntityMixin": {
+        "Lnet/minecraft/entity/player/PlayerEntity;swingHand(Lnet/minecraft/util/Hand;)V": "Lnet/minecraft/class_1657;method_6104(Lnet/minecraft/class_1268;)V",
+        "swingHand": "Lnet/minecraft/class_3222;method_6104(Lnet/minecraft/class_1268;)V"
+      }
+    }
+  }
+}

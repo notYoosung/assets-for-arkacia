@@ -1,0 +1,14 @@
+{
+  "effects": [
+    {
+      "type": "elementalcraft:enchantment",
+      "enchantment": "minecraft:fire_aspect"
+    },
+    {
+      "type": "elementalcraft:element_cost_reduction",
+      "element_type": "fire",
+      "value": 0.15
+    }
+  ],
+  "element_type": "fire"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/swift_alloy"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "elementalcraft:swift_alloy_nugget"
+  }
+}

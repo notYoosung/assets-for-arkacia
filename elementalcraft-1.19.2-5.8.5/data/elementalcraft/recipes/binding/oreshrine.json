@@ -1,0 +1,22 @@
+{
+  "type": "elementalcraft:binding",
+  "element_amount": 20000,
+  "element_type": "earth",
+  "ingredients": [
+    {
+      "item": "elementalcraft:shrinebase"
+    },
+    {
+      "item": "elementalcraft:earthcrystal"
+    },
+    {
+      "tag": "elementalcraft:gems/pristine_earth"
+    },
+    {
+      "item": "minecraft:diamond_pickaxe"
+    }
+  ],
+  "output": {
+    "item": "elementalcraft:oreshrine"
+  }
+}

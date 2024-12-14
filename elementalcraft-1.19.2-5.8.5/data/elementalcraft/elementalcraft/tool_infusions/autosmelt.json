@@ -1,0 +1,8 @@
+{
+  "effects": [
+    {
+      "type": "elementalcraft:autosmelt"
+    }
+  ],
+  "element_type": "fire"
+}

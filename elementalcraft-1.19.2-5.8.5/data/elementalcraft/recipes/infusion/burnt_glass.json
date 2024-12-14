@@ -1,0 +1,11 @@
+{
+  "type": "elementalcraft:infusion",
+  "element_amount": 500,
+  "element_type": "fire",
+  "input": {
+    "tag": "forge:glass"
+  },
+  "output": {
+    "item": "elementalcraft:burnt_glass"
+  }
+}

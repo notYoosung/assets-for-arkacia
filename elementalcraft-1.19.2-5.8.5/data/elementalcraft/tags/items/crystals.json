@@ -1,0 +1,8 @@
+{
+  "values": [
+    "elementalcraft:inert_crystal",
+    "elementalcraft:contained_crystal",
+    "elementalcraft:purecrystal",
+    "#elementalcraft:crystals/elemental"
+  ]
+}

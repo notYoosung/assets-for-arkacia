@@ -1,0 +1,15 @@
+{
+	"type": "mna:manaweaving-recipe",
+	"tier": 2,
+	"output": "mna:sachet_fire",
+	"quantity": 2,
+	"items": [
+		"mna:desert_nova",
+		"forge:netherrack",
+		"minecraft:nether_wart",
+		"mna:vinteum_dust"
+	],
+	"patterns": [
+		"mna:circle"	
+	]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "elementalpowers:blocks/sakura_planks",
+    "top": "elementalpowers:blocks/sakura_planks",
+    "side": "elementalpowers:blocks/sakura_planks"
+  },
+  "render_type": "solid"
+}

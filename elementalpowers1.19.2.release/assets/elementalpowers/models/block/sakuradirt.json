@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "elementalpowers:blocks/sakuradirt",
+    "up": "elementalpowers:blocks/sakuradirt",
+    "north": "elementalpowers:blocks/sakuradirt",
+    "east": "elementalpowers:blocks/sakuradirt",
+    "south": "elementalpowers:blocks/sakuradirt",
+    "west": "elementalpowers:blocks/sakuradirt",
+    "particle": "elementalpowers:blocks/sakuradirt"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:azalea_leaves",
+    "minecraft:flowering_azalea_leaves",
+    "elementalpowers:sakura_leaves",
+    "minecraft:oak_leaves"
+  ]
+}

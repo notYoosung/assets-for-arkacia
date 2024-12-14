@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: ElementalCraft
+Specification-Vendor: elementalcraft
+Specification-Version: 1.19.2-5.8.5
+Implementation-Title: ElementalCraft
+Implementation-Version: 1.19.2-5.8.5
+Implementation-Vendor: elementalcraft
+Implementation-Timestamp: 2023-05-23T08:53:12+0000
+MixinConfigs: elementalcraft.mixins.json
+

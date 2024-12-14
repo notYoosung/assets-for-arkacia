@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "elementalpowers:sakura_log"
+    },
+    "1": {
+      "item": "elementalpowers:sakura_log"
+    },
+    "2": {
+      "item": "elementalpowers:sakura_log"
+    },
+    "3": {
+      "item": "elementalpowers:sakura_log"
+    }
+  },
+  "result": {
+    "item": "elementalpowers:sakura_wood",
+    "count": 3
+  }
+}

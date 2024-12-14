@@ -1,0 +1,25 @@
+{
+  "type": "elementalcraft:binding",
+  "element_amount": 5000,
+  "element_type": "earth",
+  "ingredients": [
+    {
+      "item": "elementalcraft:shrinebase"
+    },
+    {
+      "item": "elementalcraft:earthcrystal"
+    },
+    {
+      "tag": "elementalcraft:gems/crude_earth"
+    },
+    {
+      "item": "minecraft:diamond_hoe"
+    },
+    {
+      "item": "minecraft:shears"
+    }
+  ],
+  "output": {
+    "item": "elementalcraft:harvestshrine"
+  }
+}

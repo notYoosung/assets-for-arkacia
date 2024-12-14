@@ -1,0 +1,60 @@
+{
+  "mappings": {
+    "joshie/gauntlets/mixin/client/ExampleClientMixin": {
+      "run": "Lnet/minecraft/class_310;method_1514()V"
+    },
+    "joshie/gauntlets/mixin/client/HeldItemRendererMixin": {
+      "Lnet/minecraft/client/network/ClientPlayerEntity;getAttackCooldownProgress(F)F": "Lnet/minecraft/class_746;method_7261(F)F",
+      "Lnet/minecraft/util/math/MathHelper;clamp(FFF)F": "Lnet/minecraft/class_3532;method_15363(FFF)F",
+      "updateHeldItems": "Lnet/minecraft/class_759;method_3220()V"
+    },
+    "joshie/gauntlets/mixin/client/InGameHudMixin": {
+      "Lnet/minecraft/client/network/ClientPlayerEntity;getAttackCooldownProgress(F)F": "Lnet/minecraft/class_746;method_7261(F)F",
+      "renderCrosshair": "Lnet/minecraft/class_329;method_1736(Lnet/minecraft/class_332;Lnet/minecraft/class_9779;)V"
+    },
+    "joshie/gauntlets/mixin/client/ItemRendererAccessor": {
+      "models": "field_4732:Lnet/minecraft/class_763;"
+    },
+    "joshie/gauntlets/mixin/client/ItemRendererMixin": {
+      "renderItem": "Lnet/minecraft/class_918;method_23179(Lnet/minecraft/class_1799;Lnet/minecraft/class_811;ZLnet/minecraft/class_4587;Lnet/minecraft/class_4597;IILnet/minecraft/class_1087;)V"
+    },
+    "joshie/gauntlets/mixin/client/MinecraftClientMixin": {
+      "Lnet/minecraft/client/MinecraftClient;handleInputEvents()V": "Lnet/minecraft/class_310;method_1508()V",
+      "Lnet/minecraft/client/MinecraftClient;tick()V": "Lnet/minecraft/class_310;method_1574()V",
+      "doItemUse": "Lnet/minecraft/class_310;method_1583()V"
+    },
+    "joshie/gauntlets/mixin/client/ModelLoaderMixin": {
+      "<init>": "Lnet/minecraft/class_1088;<init>(Lnet/minecraft/class_324;Lnet/minecraft/class_3695;Ljava/util/Map;Ljava/util/Map;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "joshie/gauntlets/mixin/client/ExampleClientMixin": {
+        "run": "Lnet/minecraft/class_310;method_1514()V"
+      },
+      "joshie/gauntlets/mixin/client/HeldItemRendererMixin": {
+        "Lnet/minecraft/client/network/ClientPlayerEntity;getAttackCooldownProgress(F)F": "Lnet/minecraft/class_746;method_7261(F)F",
+        "Lnet/minecraft/util/math/MathHelper;clamp(FFF)F": "Lnet/minecraft/class_3532;method_15363(FFF)F",
+        "updateHeldItems": "Lnet/minecraft/class_759;method_3220()V"
+      },
+      "joshie/gauntlets/mixin/client/InGameHudMixin": {
+        "Lnet/minecraft/client/network/ClientPlayerEntity;getAttackCooldownProgress(F)F": "Lnet/minecraft/class_746;method_7261(F)F",
+        "renderCrosshair": "Lnet/minecraft/class_329;method_1736(Lnet/minecraft/class_332;Lnet/minecraft/class_9779;)V"
+      },
+      "joshie/gauntlets/mixin/client/ItemRendererAccessor": {
+        "models": "field_4732:Lnet/minecraft/class_763;"
+      },
+      "joshie/gauntlets/mixin/client/ItemRendererMixin": {
+        "renderItem": "Lnet/minecraft/class_918;method_23179(Lnet/minecraft/class_1799;Lnet/minecraft/class_811;ZLnet/minecraft/class_4587;Lnet/minecraft/class_4597;IILnet/minecraft/class_1087;)V"
+      },
+      "joshie/gauntlets/mixin/client/MinecraftClientMixin": {
+        "Lnet/minecraft/client/MinecraftClient;handleInputEvents()V": "Lnet/minecraft/class_310;method_1508()V",
+        "Lnet/minecraft/client/MinecraftClient;tick()V": "Lnet/minecraft/class_310;method_1574()V",
+        "doItemUse": "Lnet/minecraft/class_310;method_1583()V"
+      },
+      "joshie/gauntlets/mixin/client/ModelLoaderMixin": {
+        "<init>": "Lnet/minecraft/class_1088;<init>(Lnet/minecraft/class_324;Lnet/minecraft/class_3695;Ljava/util/Map;Ljava/util/Map;)V"
+      }
+    }
+  }
+}

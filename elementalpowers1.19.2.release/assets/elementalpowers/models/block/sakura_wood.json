@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "elementalpowers:blocks/sakura_log_side",
+    "particle": "elementalpowers:blocks/sakura_log_side"
+  },
+  "render_type": "solid"
+}

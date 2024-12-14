@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: Iron's Spells 'n Spellbooks
+Specification-Vendor: Iron431, Lab3
+Specification-Version: 1
+Implementation-Title: Iron's Spells 'n Spellbooks
+Implementation-Version: 1.21-3.8.5
+Implementation-Vendor: Iron431, Lab3
+Implementation-Timestamp: 2024-11-24T16:48:41-0600
+

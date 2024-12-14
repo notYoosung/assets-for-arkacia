@@ -1,0 +1,34 @@
+{
+	"parent": "mna:tier_2/advance_tier_3",
+	"display": {
+		"icon": {
+			"item": "mna:runic_anvil"
+		},
+		"title": {
+			"translate": "mna:tier_3/runic_enchant.title"
+		},
+		"description": {
+			"translate": "mna:tier_3/runic_enchant.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"runic_enchant": {
+			"trigger": "mna:runeforge",
+			"conditions": {
+				"item": {
+					"enchantments": [
+						{
+							"levels": 1
+						}
+					]
+				}
+			}
+		}
+	},
+	"requirements": [
+	]
+}

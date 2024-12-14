@@ -1,0 +1,31 @@
+{
+  "type": "elementalcraft:binding",
+  "element_amount": 5000,
+  "element_type": "earth",
+  "ingredients": [
+    {
+      "item": "elementalcraft:shrinebase"
+    },
+    {
+      "item": "elementalcraft:earthcrystal"
+    },
+    {
+      "tag": "elementalcraft:gems/crude_water"
+    },
+    {
+      "tag": "forge:crops"
+    },
+    {
+      "tag": "forge:leather"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "tag": "forge:gems/diamond"
+    }
+  ],
+  "output": {
+    "item": "elementalcraft:breedingshrine"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "elementalcraft:tool_infusion",
+  "element_amount": 2000,
+  "input": {
+    "tag": "elementalcraft:infusable/swords"
+  },
+  "tool_infusion": "elementalcraft:fire_aspect"
+}

@@ -1,0 +1,82 @@
+# Recipe materials configurable in config.yml
+# P is Oak Plank
+# S is Oak Slab
+
+# 0 is empty
+
+Period:
+  - '000'
+  - '000'
+  - '0S0'
+Comma:
+  - '000'
+  - '0P0'
+  - '0S0'
+Colon:
+  - '0S0'
+  - '000'
+  - '0S0'
+Semicolon:
+  - '0S0'
+  - '000'
+  - '0P0'
+Question:
+  - '0PP'
+  - '00P'
+  - '0S0'
+Exclamation:
+  - '0P0'
+  - '0P0'
+  - '0S0'
+Apostrophe:
+  - '0S0'
+  - '0P0'
+  - '000'
+Quote:
+  - 'SS0'
+  - 'PP0'
+  - '000'
+Dash:
+  - '000'
+  - 'SS0'
+  - '000'
+Underscore:
+  - '000'
+  - '000'
+  - 'SSS'
+Slash:
+  - '00P'
+  - '0P0'
+  - 'P00'
+Plus:
+  - '0S0'
+  - 'SSS'
+  - '0S0'
+Equals:
+  - 'SSS'
+  - '000'
+  - 'SSS'
+Percent:
+  - 'S0P'
+  - '0P0'
+  - 'P0S'
+Octothorpe:
+  - '0P0'
+  - 'PPP'
+  - '0P0'
+Ampersand:
+  - '0P0'
+  - 'PS0'
+  - '0PS'
+Dollar:
+  - 'PS0'
+  - 'PPP'
+  - '0SP'
+Heart:
+  - 'P0P'
+  - 'PPP'
+  - '0P0'
+Check:
+  - '00S'
+  - 'SS0'
+  - 'S00'

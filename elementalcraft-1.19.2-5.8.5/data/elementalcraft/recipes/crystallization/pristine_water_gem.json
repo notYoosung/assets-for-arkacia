@@ -1,0 +1,23 @@
+{
+  "type": "elementalcraft:crystallization",
+  "element_amount": 5000,
+  "element_type": "water",
+  "ingredients": {
+    "crystal": {
+      "item": "elementalcraft:purecrystal"
+    },
+    "gem": {
+      "tag": "elementalcraft:gems/input_water"
+    },
+    "shard": []
+  },
+  "outputs": [
+    {
+      "result": {
+        "Count": 1,
+        "id": "elementalcraft:pristine_water_gem"
+      },
+      "weight": 1.0
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+# Recipe materials configurable in config.yml
+# P is Oak Plank
+# S is Oak Slab
+
+# 0 is empty
+
+0:
+  - '0S0'
+  - 'S0S'
+  - '0S0'
+1:
+  - 'SS0'
+  - '0S0'
+  - 'SSS'
+2:
+  - 'SS0'
+  - '0S0'
+  - '0SS'
+3:
+  - 'SSS'
+  - '0SS'
+  - 'SSS'
+4:
+  - 'S0S'
+  - 'SSS'
+  - '00S'
+5:
+  - 'S00'
+  - 'SSS'
+  - '00S'
+6:
+  - '0S0'
+  - 'S00'
+  - 'SS0'
+7:
+  - 'SS0'
+  - '0S0'
+  - '0S0'
+8:
+  - '0SS'
+  - 'SSS'
+  - 'SS0'
+9:
+  - 'SS0'
+  - 'SS0'
+  - '0S0'

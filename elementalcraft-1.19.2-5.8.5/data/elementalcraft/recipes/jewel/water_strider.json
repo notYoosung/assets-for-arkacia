@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "U": {
+      "item": "elementalcraft:unset_jewel"
+    },
+    "b": {
+      "item": "minecraft:water_bucket"
+    },
+    "w": {
+      "tag": "elementalcraft:gems/fine_water"
+    }
+  },
+  "pattern": [
+    " w ",
+    "bUb",
+    " w "
+  ],
+  "result": {
+    "item": "elementalcraft:jewel",
+    "nbt": {
+      "elementalcraft": {
+        "jewel": "elementalcraft:water_strider"
+      }
+    }
+  }
+}

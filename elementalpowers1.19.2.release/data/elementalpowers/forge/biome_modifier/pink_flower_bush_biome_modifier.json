@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "elementalpowers:sakura_woods",
+  "features": "elementalpowers:pink_flower_bush",
+  "step": "vegetal_decoration"
+}

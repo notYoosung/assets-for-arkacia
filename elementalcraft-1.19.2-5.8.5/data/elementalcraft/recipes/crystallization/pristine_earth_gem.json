@@ -1,0 +1,23 @@
+{
+  "type": "elementalcraft:crystallization",
+  "element_amount": 5000,
+  "element_type": "earth",
+  "ingredients": {
+    "crystal": {
+      "item": "elementalcraft:purecrystal"
+    },
+    "gem": {
+      "tag": "elementalcraft:gems/input_earth"
+    },
+    "shard": []
+  },
+  "outputs": [
+    {
+      "result": {
+        "Count": 1,
+        "id": "elementalcraft:pristine_earth_gem"
+      },
+      "weight": 1.0
+    }
+  ]
+}

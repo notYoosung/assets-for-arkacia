@@ -1,0 +1,27 @@
+{
+  "type": "elementalcraft:inscription",
+  "element_amount": 5000,
+  "element_type": "air",
+  "ingredients": [
+    {
+      "tag": "elementalcraft:gems/fine_air"
+    },
+    {
+      "tag": "forge:string"
+    },
+    {
+      "tag": "forge:string"
+    }
+  ],
+  "output": {
+    "item": "elementalcraft:rune",
+    "nbt": {
+      "elementalcraft": {
+        "rune": "elementalcraft:fus"
+      }
+    }
+  },
+  "slate": {
+    "item": "elementalcraft:rune_slate"
+  }
+}

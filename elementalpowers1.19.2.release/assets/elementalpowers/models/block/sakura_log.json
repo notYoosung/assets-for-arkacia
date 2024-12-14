@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "elementalpowers:blocks/sakura_log_top",
+    "up": "elementalpowers:blocks/sakura_log_top",
+    "north": "elementalpowers:blocks/sakura_log_side",
+    "east": "elementalpowers:blocks/sakura_log_side",
+    "south": "elementalpowers:blocks/sakura_log_side",
+    "west": "elementalpowers:blocks/sakura_log_side",
+    "particle": "elementalpowers:blocks/sakura_log_top"
+  },
+  "render_type": "solid"
+}

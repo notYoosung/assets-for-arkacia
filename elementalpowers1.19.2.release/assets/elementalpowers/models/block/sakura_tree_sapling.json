@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "elementalpowers:blocks/sakuretreesapling",
+    "particle": "elementalpowers:blocks/sakuretreesapling"
+  },
+  "render_type": "cutout"
+}

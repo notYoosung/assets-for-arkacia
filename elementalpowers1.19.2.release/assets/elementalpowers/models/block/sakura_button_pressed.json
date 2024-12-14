@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "elementalpowers:blocks/sakura_planks"
+  },
+  "render_type": "solid"
+}

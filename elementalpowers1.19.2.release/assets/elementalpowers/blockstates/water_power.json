@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "elementalpowers:block/water_power"
+    }
+  }
+}

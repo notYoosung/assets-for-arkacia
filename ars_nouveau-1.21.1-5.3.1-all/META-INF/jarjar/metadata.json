@@ -1,0 +1,16 @@
+{
+  "jars": [
+    {
+      "identifier": {
+        "group": "vazkii.patchouli",
+        "artifact": "Patchouli"
+      },
+      "version": {
+        "range": "[1.21,)",
+        "artifactVersion": "1.21-88-NEOFORGE-SNAPSHOT"
+      },
+      "path": "META-INF/jarjar/Patchouli-1.21-88-NEOFORGE-SNAPSHOT.jar",
+      "isObfuscated": false
+    }
+  ]
+}

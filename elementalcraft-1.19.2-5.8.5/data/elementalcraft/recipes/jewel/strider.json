@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "U": {
+      "item": "elementalcraft:unset_jewel"
+    },
+    "b": {
+      "item": "minecraft:lava_bucket"
+    },
+    "f": {
+      "tag": "elementalcraft:gems/fine_fire"
+    }
+  },
+  "pattern": [
+    " f ",
+    "bUb",
+    " f "
+  ],
+  "result": {
+    "item": "elementalcraft:jewel",
+    "nbt": {
+      "elementalcraft": {
+        "jewel": "elementalcraft:strider"
+      }
+    }
+  }
+}

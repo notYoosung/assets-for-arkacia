@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "U": {
+      "item": "elementalcraft:unset_jewel"
+    },
+    "c": {
+      "item": "elementalcraft:earthcrystal"
+    },
+    "e": {
+      "tag": "elementalcraft:gems/pristine_earth"
+    },
+    "f": {
+      "tag": "elementalcraft:gems/fine_earth"
+    },
+    "h": {
+      "item": "minecraft:honey_bottle"
+    }
+  },
+  "pattern": [
+    "heh",
+    "cUc",
+    "hfh"
+  ],
+  "result": {
+    "item": "elementalcraft:jewel",
+    "nbt": {
+      "elementalcraft": {
+        "jewel": "elementalcraft:bear"
+      }
+    }
+  }
+}

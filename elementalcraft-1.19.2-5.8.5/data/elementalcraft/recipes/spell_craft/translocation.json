@@ -1,0 +1,17 @@
+{
+  "type": "elementalcraft:spell_craft",
+  "crystal": {
+    "item": "elementalcraft:purecrystal"
+  },
+  "gem": {
+    "tag": "elementalcraft:gems/pristine_air"
+  },
+  "output": {
+    "item": "elementalcraft:scroll",
+    "nbt": {
+      "elementalcraft": {
+        "spell": "elementalcraft:translocation"
+      }
+    }
+  }
+}

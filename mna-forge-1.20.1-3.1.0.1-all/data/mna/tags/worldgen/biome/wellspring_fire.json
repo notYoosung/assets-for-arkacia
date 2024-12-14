@@ -1,0 +1,6 @@
+{
+	"values": [
+		"#minecraft:is_nether",
+		"#forge:is_desert"
+	]
+}

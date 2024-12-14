@@ -1,0 +1,9 @@
+{
+  "effects": [
+    {
+      "type": "elementalcraft:enchantment",
+      "enchantment": "minecraft:respiration"
+    }
+  ],
+  "element_type": "water"
+}

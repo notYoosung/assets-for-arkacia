@@ -1,0 +1,27 @@
+{
+  "type": "elementalcraft:inscription",
+  "element_amount": 5000,
+  "element_type": "water",
+  "ingredients": [
+    {
+      "tag": "elementalcraft:gems/fine_water"
+    },
+    {
+      "tag": "forge:storage_blocks/lapis"
+    },
+    {
+      "tag": "forge:storage_blocks/lapis"
+    }
+  ],
+  "output": {
+    "item": "elementalcraft:rune",
+    "nbt": {
+      "elementalcraft": {
+        "rune": "elementalcraft:bombadil"
+      }
+    }
+  },
+  "slate": {
+    "item": "elementalcraft:rune_slate"
+  }
+}

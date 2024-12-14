@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "U": {
+      "item": "elementalcraft:unset_jewel"
+    },
+    "a": {
+      "tag": "elementalcraft:gems/crude_air"
+    },
+    "f": {
+      "item": "minecraft:rabbit_foot"
+    },
+    "w": {
+      "tag": "elementalcraft:gems/fine_water"
+    }
+  },
+  "pattern": [
+    " w ",
+    "fUf",
+    " a "
+  ],
+  "result": {
+    "item": "elementalcraft:jewel",
+    "nbt": {
+      "elementalcraft": {
+        "jewel": "elementalcraft:arctic_hares"
+      }
+    }
+  }
+}

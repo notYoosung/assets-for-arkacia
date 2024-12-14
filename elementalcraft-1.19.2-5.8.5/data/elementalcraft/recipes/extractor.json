@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "c": {
+      "item": "elementalcraft:contained_crystal"
+    },
+    "i": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "pattern": [
+    " c ",
+    " i ",
+    "ici"
+  ],
+  "result": {
+    "item": "elementalcraft:extractor"
+  }
+}
