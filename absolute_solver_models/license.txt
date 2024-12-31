@@ -1,0 +1,11 @@
+Model Information:
+* title:	Absolute Solver Models
+* source:	https://sketchfab.com/3d-models/absolute-solver-models-07e0cd9f15a14a9387e20532782a2751
+* author:	Classic- (https://sketchfab.com/Classic-)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Absolute Solver Models" (https://sketchfab.com/3d-models/absolute-solver-models-07e0cd9f15a14a9387e20532782a2751) by Classic- (https://sketchfab.com/Classic-) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

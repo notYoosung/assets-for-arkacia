@@ -1,0 +1,136 @@
+{
+  "mappings": {
+    "net/mehvahdjukaar/supplementaries/mixins/fabric/BiomeAccessor": {
+      "climateSettings": "field_26393:Lnet/minecraft/class_1959$class_5482;"
+    },
+    "net/mehvahdjukaar/supplementaries/mixins/fabric/BowMixin": {
+      "Lnet/minecraft/world/item/ItemStack;shrink(I)V": "Lnet/minecraft/class_1799;method_7934(I)V",
+      "releaseUsing": "Lnet/minecraft/class_1753;method_7840(Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;I)V"
+    },
+    "net/mehvahdjukaar/supplementaries/mixins/fabric/BushBlockMixin": {
+      "mayPlaceOn": "Lnet/minecraft/class_2261;method_9695(Lnet/minecraft/class_2680;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)Z"
+    },
+    "net/mehvahdjukaar/supplementaries/mixins/fabric/CompatFarmersDelightTomatoMixin": {
+      "Lnet/minecraft/core/BlockPos;above()Lnet/minecraft/core/BlockPos;": "Lnet/minecraft/class_2338;method_10084()Lnet/minecraft/class_2338;",
+      "Lnet/minecraft/world/level/block/state/BlockState;is(Lnet/minecraft/world/level/block/Block;)Z": "Lnet/minecraft/class_2680;method_27852(Lnet/minecraft/class_2248;)Z"
+    },
+    "net/mehvahdjukaar/supplementaries/mixins/fabric/CompatIFMapTextureMixin2": {
+      "Lcom/mojang/blaze3d/platform/NativeImage;upload(IIIIIIIZZ)V": "Lnet/minecraft/class_1011;method_4312(IIIIIIIZZ)V"
+    },
+    "net/mehvahdjukaar/supplementaries/mixins/fabric/CompatSodiumFluidRendererMixin": {
+      "Lnet/minecraft/world/level/material/Fluid;isSame(Lnet/minecraft/world/level/material/Fluid;)Z": "Lnet/minecraft/class_3611;method_15780(Lnet/minecraft/class_3611;)Z"
+    },
+    "net/mehvahdjukaar/supplementaries/mixins/fabric/CropBlockMixin": {
+      "mayPlaceOn": "Lnet/minecraft/class_2302;method_9695(Lnet/minecraft/class_2680;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)Z"
+    },
+    "net/mehvahdjukaar/supplementaries/mixins/fabric/CrossbowMixin": {
+      "Lnet/minecraft/world/item/ItemStack;split(I)Lnet/minecraft/world/item/ItemStack;": "Lnet/minecraft/class_1799;method_7971(I)Lnet/minecraft/class_1799;",
+      "loadProjectile": "Lnet/minecraft/class_1764;method_7765(Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;Lnet/minecraft/class_1799;ZZ)Z"
+    },
+    "net/mehvahdjukaar/supplementaries/mixins/fabric/FireBlockAccessor": {
+      "canBurn": "method_10195(Lnet/minecraft/class_2680;)Z",
+      "checkBurnOut": "method_10196(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;ILnet/minecraft/class_5819;I)V"
+    },
+    "net/mehvahdjukaar/supplementaries/mixins/fabric/GuiMixin": {
+      "renderExperienceBar": "Lnet/minecraft/class_329;method_1754(Lnet/minecraft/class_332;I)V",
+      "renderHotbar": "Lnet/minecraft/class_329;method_1759(FLnet/minecraft/class_332;)V"
+    },
+    "net/mehvahdjukaar/supplementaries/mixins/fabric/ItemInHandRendererMixin": {
+      "renderHandsWithItems": "Lnet/minecraft/class_759;method_22976(FLnet/minecraft/class_4587;Lnet/minecraft/class_4597$class_4598;Lnet/minecraft/class_746;I)V"
+    },
+    "net/mehvahdjukaar/supplementaries/mixins/fabric/LevelRendererMixin": {
+      "Lnet/minecraft/world/level/block/state/BlockState;getLightEmission()I": "Lnet/minecraft/class_2680;method_26213()I",
+      "getLightColor(Lnet/minecraft/world/level/BlockAndTintGetter;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;)I": "Lnet/minecraft/class_761;method_23793(Lnet/minecraft/class_1920;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;)I"
+    },
+    "net/mehvahdjukaar/supplementaries/mixins/fabric/MinecraftInputMixin": {
+      "Lnet/minecraft/client/player/LocalPlayer;getItemInHand(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;": "Lnet/minecraft/class_746;method_5998(Lnet/minecraft/class_1268;)Lnet/minecraft/class_1799;",
+      "startUseItem": "Lnet/minecraft/class_310;method_1583()V"
+    },
+    "net/mehvahdjukaar/supplementaries/mixins/fabric/MobBucketItemAccessor": {
+      "type": "field_7991:Lnet/minecraft/class_1299;"
+    },
+    "net/mehvahdjukaar/supplementaries/mixins/fabric/MouseScrollMixin": {
+      "Lnet/minecraft/client/player/LocalPlayer;isSpectator()Z": "Lnet/minecraft/class_746;method_7325()Z",
+      "onScroll": "Lnet/minecraft/class_312;method_1598(JDD)V"
+    },
+    "net/mehvahdjukaar/supplementaries/mixins/fabric/PlayerProjectileMixin": {
+      "getProjectile": "Lnet/minecraft/class_1657;method_18808(Lnet/minecraft/class_1799;)Lnet/minecraft/class_1799;"
+    },
+    "net/mehvahdjukaar/supplementaries/mixins/fabric/RedstoneWireBlockMixin": {
+      "shouldConnectTo(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;)Z": "Lnet/minecraft/class_2457;method_10482(Lnet/minecraft/class_2680;Lnet/minecraft/class_2350;)Z"
+    },
+    "net/mehvahdjukaar/supplementaries/mixins/fabric/SkullBlockRendererMixin": {
+      "Lnet/minecraft/client/model/SkullModel;<init>(Lnet/minecraft/client/model/geom/ModelPart;)V": "Lnet/minecraft/class_607;<init>(Lnet/minecraft/class_630;)V",
+      "createSkullRenderers": "Lnet/minecraft/class_836;method_32160(Lnet/minecraft/class_5599;)Ljava/util/Map;",
+      "method_3580(Ljava/util/HashMap;)V": "Lnet/minecraft/class_836;method_3580(Ljava/util/HashMap;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/mehvahdjukaar/supplementaries/mixins/fabric/BiomeAccessor": {
+        "climateSettings": "field_26393:Lnet/minecraft/class_1959$class_5482;"
+      },
+      "net/mehvahdjukaar/supplementaries/mixins/fabric/BowMixin": {
+        "Lnet/minecraft/world/item/ItemStack;shrink(I)V": "Lnet/minecraft/class_1799;method_7934(I)V",
+        "releaseUsing": "Lnet/minecraft/class_1753;method_7840(Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;I)V"
+      },
+      "net/mehvahdjukaar/supplementaries/mixins/fabric/BushBlockMixin": {
+        "mayPlaceOn": "Lnet/minecraft/class_2261;method_9695(Lnet/minecraft/class_2680;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)Z"
+      },
+      "net/mehvahdjukaar/supplementaries/mixins/fabric/CompatFarmersDelightTomatoMixin": {
+        "Lnet/minecraft/core/BlockPos;above()Lnet/minecraft/core/BlockPos;": "Lnet/minecraft/class_2338;method_10084()Lnet/minecraft/class_2338;",
+        "Lnet/minecraft/world/level/block/state/BlockState;is(Lnet/minecraft/world/level/block/Block;)Z": "Lnet/minecraft/class_2680;method_27852(Lnet/minecraft/class_2248;)Z"
+      },
+      "net/mehvahdjukaar/supplementaries/mixins/fabric/CompatIFMapTextureMixin2": {
+        "Lcom/mojang/blaze3d/platform/NativeImage;upload(IIIIIIIZZ)V": "Lnet/minecraft/class_1011;method_4312(IIIIIIIZZ)V"
+      },
+      "net/mehvahdjukaar/supplementaries/mixins/fabric/CompatSodiumFluidRendererMixin": {
+        "Lnet/minecraft/world/level/material/Fluid;isSame(Lnet/minecraft/world/level/material/Fluid;)Z": "Lnet/minecraft/class_3611;method_15780(Lnet/minecraft/class_3611;)Z"
+      },
+      "net/mehvahdjukaar/supplementaries/mixins/fabric/CropBlockMixin": {
+        "mayPlaceOn": "Lnet/minecraft/class_2302;method_9695(Lnet/minecraft/class_2680;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)Z"
+      },
+      "net/mehvahdjukaar/supplementaries/mixins/fabric/CrossbowMixin": {
+        "Lnet/minecraft/world/item/ItemStack;split(I)Lnet/minecraft/world/item/ItemStack;": "Lnet/minecraft/class_1799;method_7971(I)Lnet/minecraft/class_1799;",
+        "loadProjectile": "Lnet/minecraft/class_1764;method_7765(Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;Lnet/minecraft/class_1799;ZZ)Z"
+      },
+      "net/mehvahdjukaar/supplementaries/mixins/fabric/FireBlockAccessor": {
+        "canBurn": "method_10195(Lnet/minecraft/class_2680;)Z",
+        "checkBurnOut": "method_10196(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;ILnet/minecraft/class_5819;I)V"
+      },
+      "net/mehvahdjukaar/supplementaries/mixins/fabric/GuiMixin": {
+        "renderExperienceBar": "Lnet/minecraft/class_329;method_1754(Lnet/minecraft/class_332;I)V",
+        "renderHotbar": "Lnet/minecraft/class_329;method_1759(FLnet/minecraft/class_332;)V"
+      },
+      "net/mehvahdjukaar/supplementaries/mixins/fabric/ItemInHandRendererMixin": {
+        "renderHandsWithItems": "Lnet/minecraft/class_759;method_22976(FLnet/minecraft/class_4587;Lnet/minecraft/class_4597$class_4598;Lnet/minecraft/class_746;I)V"
+      },
+      "net/mehvahdjukaar/supplementaries/mixins/fabric/LevelRendererMixin": {
+        "Lnet/minecraft/world/level/block/state/BlockState;getLightEmission()I": "Lnet/minecraft/class_2680;method_26213()I",
+        "getLightColor(Lnet/minecraft/world/level/BlockAndTintGetter;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;)I": "Lnet/minecraft/class_761;method_23793(Lnet/minecraft/class_1920;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;)I"
+      },
+      "net/mehvahdjukaar/supplementaries/mixins/fabric/MinecraftInputMixin": {
+        "Lnet/minecraft/client/player/LocalPlayer;getItemInHand(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;": "Lnet/minecraft/class_746;method_5998(Lnet/minecraft/class_1268;)Lnet/minecraft/class_1799;",
+        "startUseItem": "Lnet/minecraft/class_310;method_1583()V"
+      },
+      "net/mehvahdjukaar/supplementaries/mixins/fabric/MobBucketItemAccessor": {
+        "type": "field_7991:Lnet/minecraft/class_1299;"
+      },
+      "net/mehvahdjukaar/supplementaries/mixins/fabric/MouseScrollMixin": {
+        "Lnet/minecraft/client/player/LocalPlayer;isSpectator()Z": "Lnet/minecraft/class_746;method_7325()Z",
+        "onScroll": "Lnet/minecraft/class_312;method_1598(JDD)V"
+      },
+      "net/mehvahdjukaar/supplementaries/mixins/fabric/PlayerProjectileMixin": {
+        "getProjectile": "Lnet/minecraft/class_1657;method_18808(Lnet/minecraft/class_1799;)Lnet/minecraft/class_1799;"
+      },
+      "net/mehvahdjukaar/supplementaries/mixins/fabric/RedstoneWireBlockMixin": {
+        "shouldConnectTo(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;)Z": "Lnet/minecraft/class_2457;method_10482(Lnet/minecraft/class_2680;Lnet/minecraft/class_2350;)Z"
+      },
+      "net/mehvahdjukaar/supplementaries/mixins/fabric/SkullBlockRendererMixin": {
+        "Lnet/minecraft/client/model/SkullModel;<init>(Lnet/minecraft/client/model/geom/ModelPart;)V": "Lnet/minecraft/class_607;<init>(Lnet/minecraft/class_630;)V",
+        "createSkullRenderers": "Lnet/minecraft/class_836;method_32160(Lnet/minecraft/class_5599;)Ljava/util/Map;",
+        "method_3580(Ljava/util/HashMap;)V": "Lnet/minecraft/class_836;method_3580(Ljava/util/HashMap;)V"
+      }
+    }
+  }
+}

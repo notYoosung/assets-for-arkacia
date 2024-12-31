@@ -1,0 +1,27 @@
+{
+  "containers": [
+    {
+      "filled": [
+        "autumnity:sap_bottle"
+      ],
+      "empty": "minecraft:glass_bottle",
+      "capacity": "BOTTLE"
+    },
+    {
+      "filled": [
+        "thermal:sap_bucket"
+      ],
+      "empty": "minecraft:bucket",
+      "capacity": "BUCKET"
+    }
+  ],
+  "color": "#8e3f26",
+  "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
+  "still_texture": "moonlight:block/soft_fluids/honey_liquid",
+  "food": {
+    "item": "autumnity:sap_bottle"
+  },
+  "from_mod": "supplementaries",
+  "translation_key": "fluid.supplementaries.sap",
+  "use_texture_from": "thermal:sap"
+}

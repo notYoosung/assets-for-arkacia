@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "supplementaries",
+  "version": "1.20-3.1.11",
+  "name": "Supplementaries",
+  "description": "Many functional and useful Vanilla+ blocks",
+  "authors": [
+    "MehVahdJukaar, Plantkillable"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/supplementaries",
+    "sources": "https://github.com/MehVahdJukaar/supplementaries"
+  },
+  "license": "Supplementaries Team License v.1.1",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mehvahdjukaar.supplementaries.fabric.SupplementariesFabric"
+    ],
+    "client": [
+      "net.mehvahdjukaar.supplementaries.fabric.SupplementariesFabricClient"
+    ],
+    "modmenu": [
+      "net.mehvahdjukaar.supplementaries.integration.fabric.ModMenuCompat"
+    ],
+    "rei_client": [
+      "net.mehvahdjukaar.supplementaries.integration.REICompat"
+    ],
+    "jei_mod_plugin": [
+      "net.mehvahdjukaar.supplementaries.integration.JEICompat"
+    ],
+    "emi": [
+      "net.mehvahdjukaar.supplementaries.integration.EMICompat"
+    ],
+    "jade": [
+      "net.mehvahdjukaar.supplementaries.integration.JadeCompat"
+    ]
+  },
+  "mixins": [
+    "supplementaries.mixins.json",
+    "supplementaries-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "\u003e\u003d0.92.0+1.20.1",
+    "minecraft": "\u003e\u003d1.20.1 \u003c1.20.2",
+    "moonlight": "\u003e\u003d1.20-2.13.25"
+  },
+  "suggests": {
+    "sleep_tight": "*",
+    "embeddium": "*",
+    "amendments": "*"
+  },
+  "custom": {
+    "lithium:options": {
+      "mixin.block.moving_block_shapes": false
+    }
+  },
+  "accessWidener": "supplementaries.accesswidener",
+  "jars": [
+    {
+      "file": "META-INF/jars/mixinextras-fabric-0.3.6.jar"
+    },
+    {
+      "file": "META-INF/jars/mixinsquared-fabric-0.1.1.jar"
+    }
+  ]
+}
